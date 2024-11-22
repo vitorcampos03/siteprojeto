@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(31, 167, 171);
+}
+header {
+    background-color: black;
+    color: black;
+    padding: 8px;
+
+}
+
+.titulo {
+ font-style: italic;
+ color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    justify-content: center;
+    }
+    
+    .sublegenda {
+        text-align: center;
+        color:black;
+      font: italic;
+       margin-bottom: 10px;
+    }
+
+    .container {
+        margin: 100px 0 0 200px;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container img {
+        width: 13%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid black;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .container img:hover{
+        width: 45%;
+    }
+
+    footer {
+        color: black;
+        text-align: center;
+        width: 100%;
+   
+    
+    }
